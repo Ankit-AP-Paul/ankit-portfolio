@@ -17,6 +17,9 @@ export default function EducationTimeline() {
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2">
             GPA: <span className="font-bold">9.5/10</span>
           </p>
+          <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
+            Core Subjects
+          </h3>
           <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2 grid grid-cols-2 gap-2">
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
               Data Structure and Algorithms
@@ -37,6 +40,17 @@ export default function EducationTimeline() {
               Software Engineering
             </li>
           </ul>
+          <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
+            Notable Achievements
+          </h3>
+          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base list-disc pl-5">
+            <li className="mb-2">
+              1st Runner Up in Solana Tract at Hack4Bengal 2024 Hackthon
+            </li>
+            <li className="mb-2">
+              Secured Global Rank 387 in TCS CodeVita Season 11
+            </li>
+          </ul>
         </div>
       ),
     },
@@ -45,7 +59,7 @@ export default function EducationTimeline() {
       content: (
         <div className="max-w-7xl mx-auto  px-4 md:px-8 lg:px-10">
           <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-            Higher Secondary
+            Higher Secondary (ISC)
           </h2>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
             Methodist School Dankuni
@@ -53,6 +67,9 @@ export default function EducationTimeline() {
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2">
             Percentage: <span className="font-bold">96.75</span>
           </p>
+          <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
+            Subjects
+          </h3>
           <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2 grid grid-cols-2 gap-2">
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
               Mathematics
@@ -70,6 +87,14 @@ export default function EducationTimeline() {
               English
             </li>
           </ul>
+          <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
+            Notable Achievements
+          </h3>
+          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base list-disc pl-5">
+            <li className="mb-2">
+              Gold Medal in International Olympiad of Mathematics in 2020
+            </li>
+          </ul>
         </div>
       ),
     },
@@ -78,7 +103,7 @@ export default function EducationTimeline() {
       content: (
         <div className="max-w-7xl mx-auto  px-4 md:px-8 lg:px-10">
           <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-            Secondary
+            Secondary (ICSE)
           </h2>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
             Methodist School Dankuni
@@ -86,6 +111,9 @@ export default function EducationTimeline() {
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2">
             Percentage: <span className="font-bold">97.8</span>
           </p>
+          <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
+            Subjects
+          </h3>
           <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2 grid grid-cols-2 gap-2">
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
               Science
@@ -101,6 +129,18 @@ export default function EducationTimeline() {
             </li>
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
               Humanities
+            </li>
+          </ul>
+          <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
+            Notable Achievements
+          </h3>
+          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base list-disc pl-5">
+            <li className="mb-2">
+              Silver Medal in International Infomatics Olympiad in 2018
+            </li>
+            <li className="mb-2">
+              Bronze Medal in International Olympiad of English Language and
+              International Olympiad of Science in 2017
             </li>
           </ul>
         </div>
