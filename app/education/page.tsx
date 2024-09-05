@@ -1,3 +1,10 @@
+import EducationTimeline from "@/components/EducationTimeline";
+
 export default function Education() {
-  return <div>Education</div>;
+  return (
+    <div>
+      Education
+      <EducationTimeline />
+    </div>
+  );
 }
