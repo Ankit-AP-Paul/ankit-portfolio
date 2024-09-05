@@ -1,13 +1,8 @@
 "use client";
 
-import {
-  IconCode,
-  IconHome,
-  IconPrompt,
-  IconSchool,
-  IconWorldWww,
-} from "@tabler/icons-react";
+import { IconCode, IconWorldWww } from "@tabler/icons-react";
 import { FloatingDock } from "./ui/floating-dock";
+import { BriefcaseBusiness, GraduationCap, House } from "lucide-react";
 
 export default function BottomNav() {
   const links = [
@@ -15,14 +10,14 @@ export default function BottomNav() {
       title: "Home",
       href: "/",
       icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <House className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
     },
     {
       title: "Education",
       href: "/education",
       icon: (
-        <IconSchool className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <GraduationCap className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
     },
 
@@ -30,7 +25,7 @@ export default function BottomNav() {
       title: "Skills & Experience",
       href: "/skills",
       icon: (
-        <IconPrompt className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <BriefcaseBusiness className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
     },
     {
