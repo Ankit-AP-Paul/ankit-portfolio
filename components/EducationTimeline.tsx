@@ -20,18 +20,18 @@ export default function EducationTimeline() {
           <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
             Core Subjects
           </h3>
-          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2 grid grid-cols-2 gap-2">
+          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-2xl mt-2 grid grid-cols-2 gap-2">
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
               Data Structure and Algorithms
             </li>
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
-              Compiler Design
+              Database Management System
             </li>
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
-              Computer Networks
+              Object Oriented Programming
             </li>
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
-              Operating Systems
+              Theory of Computations
             </li>
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
               Machine Learning
@@ -70,7 +70,7 @@ export default function EducationTimeline() {
           <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
             Subjects
           </h3>
-          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2 grid grid-cols-2 gap-2">
+          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-2xl mt-2 grid grid-cols-2 gap-2">
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
               Mathematics
             </li>
@@ -114,7 +114,7 @@ export default function EducationTimeline() {
           <h3 className="text-md md:text-2xl mt-6 mb-3 text-black dark:text-white">
             Subjects
           </h3>
-          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm mt-2 grid grid-cols-2 gap-2">
+          <ul className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-2xl mt-2 grid grid-cols-2 gap-2">
             <li className="bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1">
               Science
             </li>
