@@ -28,7 +28,7 @@ export const Card = React.memo(
         fill
         className="object-cover absolute inset-0"
       />
-      <div className="absolute inset-0 bg-black/50 flex flex-col justify-end py-8 px-4">
+      <div className="absolute inset-0 bg-black/60 flex flex-col justify-end py-8 px-4">
         <div
           className={cn(
             "text-xl md:text-2xl font-medium text-white transition-all duration-300",
