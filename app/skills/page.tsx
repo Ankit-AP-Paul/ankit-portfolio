@@ -2,7 +2,7 @@ import SkillList from "@/components/SkillList";
 
 export default function Skills() {
   return (
-    <div>
+    <div className="pb-20">
       <section className="relative w-full h-[40vh] md:h-[40vh] bg-dark flex flex-col items-center justify-center text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white">
           Unique Ideas For{" "}
